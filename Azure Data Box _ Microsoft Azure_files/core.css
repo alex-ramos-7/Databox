@@ -18763,15 +18763,28 @@ a.hashtag {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
 }
 
 .grid{
-
+    border: 1px solid red;
+    padding: 5px;
+    margin-bottom: 25px;
 }
 
-.grid-column{
+.grid-icon{
+    /* border: 1px solid red; */
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
 
+.grid-icon img{
+    /* border: 1px solid red; */
+    /* display: block; */
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 .grid-row{
