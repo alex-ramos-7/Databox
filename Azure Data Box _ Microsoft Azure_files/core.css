@@ -18758,28 +18758,27 @@ a.hashtag {
 
 /* New CSS for Partner page */
 
-.logo{
+.logo_reg{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    /* border: 1px solid red;  */
+    height: 100px;
+    line-height: 100px;
 }
 
 .grid{
-    /* border: 1px solid red; */
     padding: 5px;
     margin-bottom: 25px;
 }
 
-.grid-icon{
-    /* border: 1px solid red; */
+.grid-icon_reg{
     height: 350px;
     line-height: 10px;
     text-align: center;
 }
 
-.grid-icon p{
+.grid-icon_reg p{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -18790,7 +18789,7 @@ a.hashtag {
 .grid-container{
     display: grid;
     grid-column-gap: 110px;
-    grid-row-gap: 30px;
+    grid-row-gap: 50px;
     grid-template-columns: 210px 210px 210px 210px;
     padding: 5px;
     margin-bottom: 25px;
@@ -18799,15 +18798,18 @@ a.hashtag {
     margin-right: auto;
 }
 
-.logo{
-    height: 100px;
-    line-height: 100px;
-}
-
-.logo img{
-    /* border: 1px solid red; */
-    /* display: block; */
+.logo_reg img{
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;    
+}
+
+.grid-icon{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.grid-icon img{
+    vertical-align: middle;
 }
