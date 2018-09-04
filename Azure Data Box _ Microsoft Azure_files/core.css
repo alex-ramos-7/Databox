@@ -18779,15 +18779,6 @@ a.hashtag {
     text-align: center;
 }
 
-.grid-icon img{
-    /* border: 1px solid red; */
-    /* display: block; */
-    vertical-align: top;
-    margin-left: auto;
-    margin-right: auto;    
-    /* margin-bottom: 25px; */
-}
-
 .grid-icon p{
     font-size: 16px;
     font-weight: 400;
@@ -18809,5 +18800,14 @@ a.hashtag {
 }
 
 .logo{
-    height: 85px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.logo img{
+    /* border: 1px solid red; */
+    /* display: block; */
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;    
 }
