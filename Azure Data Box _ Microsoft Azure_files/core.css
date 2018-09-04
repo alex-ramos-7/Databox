@@ -18774,19 +18774,40 @@ a.hashtag {
 
 .grid-icon{
     /* border: 1px solid red; */
-    height: 100px;
-    line-height: 100px;
+    height: 350px;
+    line-height: 10px;
     text-align: center;
 }
 
 .grid-icon img{
     /* border: 1px solid red; */
     /* display: block; */
-    vertical-align: middle;
+    vertical-align: top;
     margin-left: auto;
     margin-right: auto;    
+    /* margin-bottom: 25px; */
 }
 
-.grid-row{
+.grid-icon p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #505050;
+    font-family: "Segoe UI", SegoeUI, "Segoe WP", Tahoma, Arial, sans-serif;
+}
 
+.grid-container{
+    display: grid;
+    grid-column-gap: 110px;
+    grid-row-gap: 30px;
+    grid-template-columns: 210px 210px 210px 210px;
+    padding: 5px;
+    margin-bottom: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    height: 85px;
 }
