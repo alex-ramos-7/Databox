@@ -18860,6 +18860,10 @@ a.hashtag {
   cursor: pointer;
 }
 
-#bottom{
+.partner{
   padding-bottom: 0;
+}
+
+.intro{
+  margin-bottom: 25px;
 }
