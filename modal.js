@@ -33,12 +33,4 @@ $(document).ready(function(){
         }
         modalOpen = false;
       });
-    
-
-    // $(document).click(function(){
-    //     if (event.target != $('.myModal') && modalOpen == true) {
-    //         $('.myModal').toggle();
-    //         modalOpen = false;
-    //     }
-    // })
  });
