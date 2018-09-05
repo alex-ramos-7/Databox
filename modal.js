@@ -26,6 +26,15 @@ $(document).ready(function(){
         modalOpen = false;
     });
 
+    $(document).click(function(event) {
+        //if you click on anything except the modal itself or the "open modal" link, close the modal
+        if(!modalOpen){
+          $("body").find(".myModal").css("display", "none");
+        }
+        modalOpen = false;
+      });
+    
+
     // $(document).click(function(){
     //     if (event.target != $('.myModal') && modalOpen == true) {
     //         $('.myModal').toggle();
