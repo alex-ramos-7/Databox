@@ -18791,7 +18791,8 @@ a.hashtag {
     display: grid;
     grid-column-gap: 110px;
     grid-row-gap: 50px;
-    grid-template-columns: 210px 210px 210px 210px;
+    /* grid-template-columns: 210px 210px 210px 210px; */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     padding: 5px;
     margin-bottom: 25px;
     width: 90%;
