@@ -11,21 +11,20 @@ $(document).ready(function(){
         showModal(iconClicked);
     });
 
-    $('.closeButton').click(function(){
-        $('.myModal').toggle();
-        modalOpen = false;
-    })
-
     function showModal(partner){
         modalImg = ($("#" + partner).find('img').attr("src"));
-        console.log(iconClicked);
-        console.log(modalImg);
-        $('.myModal').find('h4').text(iconClicked);
+        // console.log(iconClicked);
+        // console.log(modalImg);
+        $('.myModal').find('h4').text(iconClicked.replace('_', ' '));
         $('.myModal').find('img').attr("src", modalImg);
         $('.myModal').toggle();
         modalOpen = true;
-        
     }
+
+    $('.closeButton').click(function(){
+        $('.myModal').toggle();
+        modalOpen = false;
+    });
 
     // $(document).click(function(){
     //     if (event.target != $('.myModal') && modalOpen == true) {
