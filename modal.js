@@ -7,14 +7,11 @@ $(document).ready(function(){
 
     $('button').click(function(){
         iconClicked = this.id;
-        console.log(iconClicked);
         showModal(iconClicked);
     });
 
     function showModal(partner){
         modalImg = ($("#" + partner).find('img').attr("src"));
-        // console.log(iconClicked);
-        // console.log(modalImg);
         $('.myModal').find('h4').text(iconClicked.replace('_', ' '));
         $('.myModal').find('img').attr("src", modalImg);
         $('.myModal').toggle();
