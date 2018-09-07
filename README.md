@@ -10,8 +10,8 @@ This repository holds the HTML, CSS, and images for the Azure Data Box partner w
 
 There are multiple files where we've written code for the site;
 * The HTML for the page can be found in the **Data Box regular.html** file. 
-* The CSS for the page is found in the **core.css** file in the **Azure Data Box_Microsoft Azure_file** folder. * 
-* That folder also contains a sub-folder titled **partnerLogos** that holds the PNG logos used in the page.
+* The CSS for the page is found in the **core.css** file in the **Azure Data Box_Microsoft Azure_file** folder. 
+** That folder also contains a sub-folder titled **partnerLogos** that holds the PNG logos used in the page.
 
 To ease the review process and make it easier to find the code I contributed, I’ve added comments where the new code begins and ends in both the HTML and CSS documents. 
 * **Data Box regular.html**, the new code lies between lines 2170-2347. 
