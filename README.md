@@ -13,7 +13,7 @@ In order to view the web page, you'll need to either *clone* or *download* the *
 There are multiple files where we've written code for the site;
 * **Data Box regular.html** holds the raw HTML for the site.
 * **core.css**, found in the **Azure Data Box_Microsoft Azure_file** folder, is the stylesheet for the page
-* The folder titled **partnerLogos**, also found in the **Azure Data Box_Microsoft Azure_file** folder, holds the logos used in the page.
+* **partnerLogos**, also found in the **Azure Data Box_Microsoft Azure_file** folder, holds the logos used in the page.
 
 To ease the review process and make it easier to find the code I contributed, I’ve added comments where the new code begins and ends in both the HTML and CSS documents. 
 * **Data Box regular.html**: The new code is between lines 2170-2347. 
