@@ -16,6 +16,6 @@ There are multiple files where we've written code for the site;
 * **partnerLogos**, also found in the **Azure Data Box_Microsoft Azure_file** folder, holds the logos used in the page.
 
 To ease the review process and make it easier to find the code I contributed, I’ve added comments where the new code begins and ends in both the HTML and CSS documents. 
-* **Data Box regular.html**: The new code is between lines 2170-2369. 
+* **Data Box regular.html**: The new code is between lines 2121-2369. 
 * **core.css**: the new code starts at line 18761 and continues until the end of the document. 
 
