@@ -13313,7 +13313,7 @@ table.table-minimal tr:last-child {
 }
 @media only screen and (min-width: 768px) {
   .wa-container {
-    padding-top: 88px;
+    padding-top: 0px;
   }
   html.azure-header-minimum .wa-container {
     padding-top: 46px;
