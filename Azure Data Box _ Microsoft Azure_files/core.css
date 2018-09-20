@@ -484,7 +484,7 @@ html {
 }
 .section {
   display: block;
-  padding: 48px 0;
+  padding: 35px 0 48px 0;
   width: 100%;
 }
 .section.section-size0 {
