@@ -3161,6 +3161,7 @@ a.img-wrapper img {
 .linkList {
   list-style-type: none;
   padding-left: 0;
+  display: inline-block;
 }
 .linkList:after {
   clear: both;
@@ -18847,10 +18848,16 @@ a.hashtag {
 }
 
 .topNav{
-  background-color: #f4f4f4;
-  color: #1a1a1f;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .topNav a{
   text-align: center;
   color: #0078D7;
+}
+.sub-nav{
+  text-align: center;
+  margin-top: 25px;
 }
