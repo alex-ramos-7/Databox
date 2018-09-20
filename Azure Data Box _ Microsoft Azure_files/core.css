@@ -18801,8 +18801,43 @@ a.hashtag {
 
 .partner{
   padding-bottom: 48px;
+  text-align: center;
 }
 
 .intro{
   margin-bottom: 25px;
+}
+
+.theme-tan {
+  background-color: rgb(244, 244, 244); /* #f4f4f4 */
+  color: rgb(0, 0, 0);
+}
+
+.btn-cta{
+  font-size: 20px;
+  border: 1px solid #0078D7;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: auto;
+  height: auto;
+  background: #0078D7;
+  color: white;
+}
+
+.heroHead{
+  text-align: center;
+}
+
+.heroHead img{
+  float: left;
+}
+
+.heroHead p{
+  margin-bottom: 25px;
+}
+
+.topNav{
+  background-color: #1a1a1f;
 }
